@@ -49,7 +49,8 @@ install:
   npm install --save-dev unified-language-server
   npm install --save-dev vscode-json-languageserver-bin
   npm install --save-dev yaml-language-server
-  pip install langchain_community tiktoken langchain-openai langchainhub chromadb langchain
+  pip install langchain_community tiktoken langchain-openai langchainhub chromadb langchain langchain-cli
   pip install rich bpython better_exceptions
   pip install black isort mypy pre-commit==3.2.2
   pip install yapf flake8 black ruff isort autopep8 autoflake pylint better_exceptions rich bpython python-dotenv
+  pip install openapi-schema-pydantic openapi-pydantic wikipedia docarray

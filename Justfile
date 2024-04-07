@@ -41,6 +41,7 @@ install:
   conda install -c conda-forge 'jupyterlab=4.1.0' 'jupyterlab-lsp=5.1.0' 'jupyter-lsp-python=2.2.4'
   conda install -c conda-forge jedi-language-server
   conda install -c conda-forge ipywidgets
+  conda install jupyter_bokeh
   npm install --save-dev bash-language-server
   npm install --save-dev dockerfile-language-server-nodejs
   npm install --save-dev pyright
@@ -54,3 +55,4 @@ install:
   pip install black isort mypy pre-commit==3.2.2
   pip install yapf flake8 black ruff isort autopep8 autoflake pylint better_exceptions rich bpython python-dotenv
   pip install openapi-schema-pydantic openapi-pydantic wikipedia docarray
+  pip install panel

@@ -52,4 +52,4 @@ install:
   pip install langchain_community tiktoken langchain-openai langchainhub chromadb langchain
   pip install rich bpython better_exceptions
   pip install black isort mypy pre-commit==3.2.2
-  pip install yapf flake8 black ruff isort autopep8 autoflake pylint better_exceptions rich bpython
+  pip install yapf flake8 black ruff isort autopep8 autoflake pylint better_exceptions rich bpython python-dotenv
